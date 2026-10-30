@@ -1,0 +1,20 @@
+Test Results
+============
+Python version: 3.13.5
+Command: python -m pytest -q --cov=course_registration --cov-report=term-missing
+Exit code: 0
+
+Test and coverage output:
+..........................                                               [100%]
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.5-final-0 ________________
+
+Name                              Stmts   Miss  Cover   Missing
+---------------------------------------------------------------
+course_registration/__init__.py       2      0   100%
+course_registration/service.py      110      0   100%
+---------------------------------------------------------------
+TOTAL                               112      0   100%
+26 passed in 0.15s
+
+Note: the environment that produced this run printed an unrelated startup warning from its own tooling. It is not from this project, and pytest still passed.
